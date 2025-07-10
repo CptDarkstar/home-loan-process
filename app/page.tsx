@@ -57,9 +57,8 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-red-50 to-orange-50">
-        <div className="container mx-auto px-4">
-          <div className="relative w-full h-80 md:h-96 overflow-hidden">
+      <section className="py-2 bg-gradient-to-br from-red-50 to-orange-50">
+        <div className="relative w-full h-80 md:h-96 overflow-hidden" >
             <Image
               src="/couple-buy-new-house.jpg"
               alt="couple-buy-new-house"
@@ -67,6 +66,7 @@ export default function HomePage() {
               layout="fill"
               className="absolute top-0 left-0 w-full h-full object-cover"
             />
+          <div className="relative w-full h-80 md:h-96 overflow-hidden">
             <div className="max-w-4xl mx-auto text-center relative z-10">
               <Badge className="mb-4 bg-red-100 text-red-800 hover:bg-red-100">
                 100% Free Service
