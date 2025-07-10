@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Clock, FileText, Building, Phone, Mail, MapPin, Globe, AlertTriangle } from "lucide-react"
 import Link from "next/link"
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -12,7 +13,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <img src="/images/rns-logo.png" alt="RNS - Residential Network Systems" className="h-12 w-auto" />
+              <Image src="/RNS Logo 2022 - Copy.png" alt="RNS - Residential Network Systems" className="h-12 w-auto" width={48} height={48} />
             </div>
             <nav className="hidden md:flex items-center space-x-6">
               <Link href="#process" className="text-gray-600 hover:text-gray-900">
