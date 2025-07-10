@@ -41,12 +41,12 @@ export default function HomePage() {
               free, and we are committed to making the process quick, transparent, and stress-free.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700">
+              {/* <Button size="lg" className="bg-red-600 hover:bg-red-700">
                 Start Your Application
               </Button>
               <Button size="lg" variant="outline">
                 Learn More
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
@@ -267,9 +267,9 @@ export default function HomePage() {
             </div>
 
             <div className="text-center mt-12">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700">
+              {/* <Button size="lg" className="bg-red-600 hover:bg-red-700">
                 Start Your Application Now
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
