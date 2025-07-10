@@ -71,14 +71,14 @@ export default function HomePage() {
               <Badge className="mb-4 bg-red-100 text-red-800 hover:bg-red-100">
                 100% Free Service
               </Badge>
-              <Badge className="mb-4 bg-red-50 text-red-800 hover:bg-red-100 opacity-70">
+              <Badge className="mb-4 bg-red-50 text-red-800 hover:bg-red-100 opacity-80">
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 text-wrap">
                   Simplify Your Journey to{" "}
                   <span className="text-green-500">Homeownership</span>
                 </h1>
               </Badge>
-              <Badge className="mb-4 bg-red-50 text-red-800 hover:bg-red-100 opacity-70">
-                <p className="text-xl text-gray-600 mb-8 max-w-3xl text-wrap">
+              <Badge className="mb-4 bg-red-50 text-red-800 hover:bg-red-100 opacity-80">
+                <p className="text-xl text-black-600 mb-8 max-w-3xl text-wrap">
                   We help you secure the best home loan deals from major South
                   African banks. Our support is completely free, and we are
                   committed to making the process quick, transparent, and
@@ -297,14 +297,14 @@ export default function HomePage() {
                     <Mail className="h-5 w-5 text-red-600" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-gray-600">info@yourcompany.co.za</p>
+                      <p className="text-gray-600">clair@rnsonline.co.za</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
                     <Globe className="h-5 w-5 text-red-600" />
                     <div>
                       <p className="font-medium">Website</p>
-                      <p className="text-gray-600">www.yourcompany.co.za</p>
+                      <p className="text-gray-600">www.rnsonline.co.za</p>
                     </div>
                   </div>
                 </CardContent>
