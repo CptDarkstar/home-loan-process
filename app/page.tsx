@@ -14,7 +14,6 @@ import {
   Building,
   Phone,
   Mail,
-  MapPin,
   Globe,
   AlertTriangle,
 } from "lucide-react";
@@ -278,19 +277,12 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <MapPin className="h-5 w-5 text-red-600" />
-                    <div>
-                      <p className="font-medium">Office Address</p>
-                      <p className="text-gray-600">
-                        4th Floor, Gihon Building, Bellville, 7530
-                      </p>
-                    </div>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-red-600" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-gray-600">+27 21 910 5900</p>
+                      <p className="text-gray-600">082 855 0975</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
@@ -304,7 +296,7 @@ export default function HomePage() {
                     <Globe className="h-5 w-5 text-red-600" />
                     <div>
                       <p className="font-medium">Website</p>
-                      <p className="text-gray-600">www.rnsonline.co.za</p>
+                      <p className="text-blue-600"><a href="https://www.rnsonline.co.za">www.rnsonline.co.za</a></p>
                     </div>
                   </div>
                 </CardContent>
