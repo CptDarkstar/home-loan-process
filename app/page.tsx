@@ -35,6 +35,10 @@ export default function HomePage() {
                 width={48}
                 height={48}
               />
+            <p>
+              RNS Home Loans.<br />
+              Magic happens when we back each other.
+            </p>
             </div>
             <nav className="hidden md:flex items-center space-x-6">
               <Link
