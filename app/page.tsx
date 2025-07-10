@@ -38,7 +38,7 @@ export default function HomePage() {
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               We help you secure the best home loan deals from major South African banks. Our support is completely
-              free, and we're committed to making the process quick, transparent, and stress-free.
+              free, and we are committed to making the process quick, transparent, and stress-free.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-red-600 hover:bg-red-700">
@@ -93,7 +93,7 @@ export default function HomePage() {
                     )}
                   </div>
                   <p className="text-sm text-gray-500 mt-4">
-                    Additional documents may be required depending on property type, buyer's legal and employment
+                    Additional documents may be required depending on property type, buyers legal and employment
                     status, and income sources.
                   </p>
                 </CardContent>
@@ -154,8 +154,8 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
-                    Once approved, attorneys prepare documents for registration. You'll be contacted to sign necessary
-                    paperwork and pay fees. The seller's attorney handles the title transfer. Once lodged with the Deeds
+                    Once approved, attorneys prepare documents for registration. You will be contacted to sign necessary
+                    paperwork and pay fees. The sellers attorney handles the title transfer. Once lodged with the Deeds
                     Office, the title is registered in your name.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
@@ -280,7 +280,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <img src="/images/rns-logo.png" alt="RNS - Residential Network Systems" className="h-10 w-auto" />
+              <Image src="/RNS Logo 2022 - Copy.png" alt="RNS - Residential Network Systems" className="h-12 w-auto" width={48} height={48} />
             </div>
             <p className="text-gray-400 mb-4">
               RNS - Residential Network Systems. Simplifying your journey to homeownership with expert guidance and free
